@@ -1,7 +1,7 @@
 version: '3'
 services:
   express-ts:
-    # image: neliocaa/express-ts:latest
+    image: neliocaa/express-ts:latest
     build:
       context: .
       dockerfile: Dockerfile
